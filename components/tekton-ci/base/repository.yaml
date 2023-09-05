@@ -61,6 +61,8 @@ metadata:
   name: clair-in-ci-db
 spec:
   url: "https://github.com/redhat-appstudio/clair-in-ci-db"
+  settings:
+    pipelinerun_provenance: "default_branch"
 ---
 apiVersion: pipelinesascode.tekton.dev/v1alpha1
 kind: Repository
