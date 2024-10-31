@@ -4,4 +4,4 @@
   value: https://github.com/14rcole-rhtap/infra-deployments
 - op: replace
   path: /spec/template/spec/sources/1/targetRevision
-  value: preview-disable-auto-sync-dev
+  value: preview-preview-disable-auto-sync-dev
