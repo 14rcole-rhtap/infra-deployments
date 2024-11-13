@@ -4,10 +4,8 @@ resources:
   - ../base
   - ../base/monitor/development
   - https://github.com/konflux-ci/release-service/config/default?ref=6a89738bc38398d16ceacbb35f179e2b213c8131
-
 images:
   - name: quay.io/konflux-ci/release-service
-    newName: quay.io/konflux-ci/release-service
-    newTag: 6a89738bc38398d16ceacbb35f179e2b213c8131
-
+    newName: quay.io/rycole/release-service
+    newTag: latest
 namespace: release-service
